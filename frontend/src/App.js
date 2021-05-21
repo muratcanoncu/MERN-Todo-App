@@ -1,17 +1,15 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 //! Components
 import Header from "./Components/Header/Header";
+import Container from "./Components/mainContainer/mainContainer";
 function App() {
   return (
     <HashRouter basename="/">
       <div className="App">
         <Header></Header>
-        <Switch>
-          <Route path="/" component={() => <p>hello</p>} exact></Route>
-          <Route path="/todoadd" component={() => <p>add</p>} exact></Route>
-        </Switch>
+        <Container></Container>
       </div>
     </HashRouter>
   );

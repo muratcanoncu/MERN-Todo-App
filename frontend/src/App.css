@@ -30,3 +30,8 @@ header button {
   width: 45%;
   height: 40px;
 }
+main {
+  width: 100%;
+  height: calc(100vh - 40vh);
+  background-color: lightblue;
+}

@@ -6,6 +6,7 @@ const TodoItemSchema = new Schema({
   time: String,
   importance: String,
   duration: Number,
+  itemPhoto: String,
 });
 const TodoItem = mongoose.model("TodoItem", TodoItemSchema);
 module.exports = TodoItem;
