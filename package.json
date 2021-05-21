@@ -1,0 +1,14 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "MERN todo List",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend \" \"npm start --prefix backend\""
+  },
+  "author": "Murat Can Öncü",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
