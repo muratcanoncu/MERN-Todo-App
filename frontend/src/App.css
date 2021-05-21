@@ -28,10 +28,17 @@ header h1 {
 }
 header button {
   width: 45%;
+  min-width: 140px;
   height: 40px;
 }
 main {
   width: 100%;
-  height: calc(100vh - 40vh);
+  min-height: calc(100vh - 40vh);
+  height: auto;
+  padding-top: 80px;
   background-color: lightblue;
+}
+main .addingForm {
+  width: 25% !important;
+  min-width: 300px !important;
 }
